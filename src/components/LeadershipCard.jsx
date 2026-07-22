@@ -1,0 +1,1 @@
+export default function LeadershipCard({ l }) { return ( <div className="bg-white rounded shadow flex p-4 gap-4"> <img src={l.photo} alt={l.name} className="w-24 h-24 object-cover rounded-full" /> <div> <h4 className="font-semibold">{l.name} <span className="text-sm text-gray-500">— {l.role}</span></h4> <p className="text-sm mt-1">{l.bio}</p> </div> </div> ); }
