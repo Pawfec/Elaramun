@@ -1,0 +1,1 @@
+export default function CommitteeCard({ c }) { return ( <article className="bg-white rounded shadow p-4"> <img src={c.icon} alt={c.name} className="h-40 w-full object-cover rounded" /> <h3 className="mt-3 font-semibold">{c.name}</h3> <p className="text-sm mt-1">{c.shortDescription}</p> </article> ); }
